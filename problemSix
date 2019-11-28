@@ -12,6 +12,8 @@ public int findLongestChain(int[][] pairs) {
         }
 
         int ans = 0;
-        for (int x: dp) if (x > ans) ans = x;
+        for (int x: dp) 
+        	if (x > ans) 
+        		ans = x;
         return ans;
 }
